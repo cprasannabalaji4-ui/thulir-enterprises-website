@@ -9,7 +9,7 @@ const services = [
   },
   {
     title: "Mug Printing",
-    image: "/images/mug.jpg",
+    image: "/images/mug.png",
     link: "/mug-printing",
   },
   {

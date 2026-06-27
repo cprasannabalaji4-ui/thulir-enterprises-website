@@ -1,16 +1,16 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section
       id="home"
-      className="bg-linear-to-r from-black via-teal-950 to-black text-white"
+      className="relative bg-linear-to-r from-black via-teal-950 to-black text-white overflow-hidden min-h-162.5"
     >
-      <div className="max-w-7xl mx-auto px-5 py-16 lg:py-24">
-
+      <div className="max-w-7xl mx-auto px-5 py-16 lg:py-24 relative z-10">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
 
           {/* Left Content */}
           <div>
-
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
               Thulir
               <br />
@@ -29,31 +29,34 @@ function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
 
-              <button className="bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-lg font-semibold">
+              {/* Get Quote Button */}
+              <Link
+                to="/getquote"
+                className="bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-lg font-semibold text-center"
+              >
                 Get a Quote →
-              </button>
+              </Link>
 
-              <button className="border border-orange-500 hover:bg-orange-500 transition px-8 py-4 rounded-lg font-semibold">
+              {/* Contact Us Button */}
+              <a
+                href="#contact"
+                className="border border-orange-500 hover:bg-orange-500 transition px-8 py-4 rounded-lg font-semibold text-center"
+              >
                 Contact Us
-              </button>
+              </a>
 
             </div>
-
           </div>
 
-          {/* Right Image */}
-          <div className="flex justify-center">
-
-            <img
-              src="/images/hero-products.png"
-              alt="Printing Products"
-              className="w-full max-w-xl"
-            />
-
-          </div>
+<div className="flex justify-center lg:justify-end items-center">
+  <img
+    src="/images/hero-products.jpg"
+    alt="Printing Products"
+    className="w-full max-w-200 h-auto object-contain"
+  />
+</div>  
 
         </div>
-
       </div>
     </section>
   );

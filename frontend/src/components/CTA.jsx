@@ -56,11 +56,11 @@ function CTA({ openModal }){
             {/* Right Image */}
             <div className="flex justify-center">
 
-              <img
-                src="/images/cta-banner.png"
-                alt="Printer"
-                className="w-full max-w-md"
-              />
+             <img
+             src="/images/hero-printing-machine.jpg"
+             alt="Printer"
+             className="w-225 max-w-none"
+             />
 
             </div>
 

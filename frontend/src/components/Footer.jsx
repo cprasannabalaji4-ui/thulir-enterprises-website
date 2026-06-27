@@ -93,12 +93,12 @@ function Footer() {
 
               <p className="flex items-center gap-3">
                 <FaPhoneAlt />
-                +91 9876543210
+                +91 9790654639
               </p>
 
               <p className="flex items-center gap-3">
                 <FaEnvelope />
-                info@thulirenterprises.com
+                thulirenterprises4@gmail.com
               </p>
 
               <p className="flex items-center gap-3">
