@@ -81,7 +81,7 @@ Estimated Total:
               <div className="flex justify-center">
                 <div className="relative">
                   <img
-                    src="/images/cap-preview.png"
+                    src="/images/cap-preview.jpg"
                     alt="Cap Preview"
                     className="w-80"
                   />

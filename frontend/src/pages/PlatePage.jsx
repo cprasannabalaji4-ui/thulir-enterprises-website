@@ -112,9 +112,12 @@ function PlatePage() {
               </div>
 
               <div className="mt-8">
-                <Link to="/order/plate">
-                Get Quote →
-                </Link>
+                <Link
+                 to="/order/plate"
+                 className="inline-block bg-blue-900 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-800 transition"
+                 >
+                 Get Quote →
+                 </Link>
               </div>
 
             </div>

@@ -79,7 +79,7 @@ Estimated Total:
               <div className="flex justify-center">
                 <div className="relative">
                   <img
-                    src="/images/mug-preview.png"
+                    src="/images/mug-preview.jpg"
                     alt="Mug Preview"
                     className="w-80"
                   />

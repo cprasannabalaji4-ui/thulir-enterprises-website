@@ -90,7 +90,7 @@ Estimated Total:
                 <div className="relative">
 
                   <img
-                    src="/images/plate-preview.png"
+                    src="/images/plate-preview.jpg"
                     alt="Plate Preview"
                     className="w-80"
                   />

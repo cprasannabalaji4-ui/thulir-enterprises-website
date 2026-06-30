@@ -81,7 +81,7 @@ Estimated Total:
               <div className="flex justify-center">
                 <div className="relative">
                   <img
-                    src="/images/badge-preview.png"
+                    src="/images/badge-preview.jpg"
                     alt="Badge Preview"
                     className="w-72"
                   />

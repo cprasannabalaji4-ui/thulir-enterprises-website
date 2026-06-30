@@ -93,7 +93,7 @@ function PreviewSection({ orderData }) {
       >
 
         <img
-          src="/images/products/tshirt-white.png"
+          src="/images/tshirt-white.jpg"
           alt="Tshirt"
           className="w-[350px] md:w-[450px]"
         />
