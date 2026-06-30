@@ -25,9 +25,9 @@ function TshirtPage() {
       <section className="relative py-24 bg-black text-white">
         <div className="absolute inset-0">
           <img
-            src="/images/tshirt-banner.jpg"
+            src="/images/tshirt-banner.png"
             alt="Banner"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-70"
           />
         </div>
 

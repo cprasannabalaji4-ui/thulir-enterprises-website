@@ -24,9 +24,9 @@ function BadgePage() {
       <section className="relative py-24 bg-black text-white">
         <div className="absolute inset-0">
           <img
-            src="/images/badge-banner.jpg"
+            src="/images/badge-banner.png"
             alt="Badge Printing Banner"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-70"
           />
         </div>
 
